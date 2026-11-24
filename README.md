@@ -69,4 +69,4 @@ src/
 Python, pandas, LightGBM(LGBMRanker), RapidFuzz, PyTorch, Transformers, PEFT(LoRA/QLoRA), bitsandbytes, Qwen2.5-3B/7B-Instruct, ByT5
 
 ## 작업 범위
-분석 방향과 실험 우선순위는 직접 정했고, 코드 작성과 실험 실행에는 생성형 AI를 활용했습니다.
+분석 방향과 실험 우선순위는 직접 정했습니다.
