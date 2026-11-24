@@ -63,7 +63,7 @@ notebooks/
 src/
   phon.py                           # 한글·영문 자음 골격 키
 ```
-노트북은 Colab(L4)에서 실행했고 출력은 제거했습니다. 제출용 `script.py`와 피처·랭커 모듈은 현재 포함되지 않아 전체 제출 파이프라인을 재현할 수 없습니다. 위 점수는 당시 기록으로, 공식 리더보드 자료 및 규정 준수 여부는 별도 확인이 필요합니다.
+노트북은 Colab(L4)에서 실행했고 출력은 제거했습니다. 제출용 `script.py`와 피처·랭커 모듈은 현재 포함되지 않아 전체 제출 파이프라인을 재현할 수 없습니다. 위 점수는 당시 기록으로, 공식 리더보드 자료 및 규정 준수 여부는 별도 확인이 필요합니다. Public LB를 반복 확인하며 모델을 선택했으므로 독립적인 최종 일반화 성능으로 해석할 수 없습니다.
 
 ## 기술 스택
 Python, pandas, LightGBM(LGBMRanker), RapidFuzz, PyTorch, Transformers, PEFT(LoRA/QLoRA), bitsandbytes, Qwen2.5-3B/7B-Instruct, ByT5
